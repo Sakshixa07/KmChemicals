@@ -14,8 +14,8 @@ export const About = () => {
           />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-block mb-6 px-4 py-2 bg-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-full">
-            <span className="text-[#D4AF37] text-sm font-semibold">ABOUT US</span>
+          <div className="inline-block mb-6 px-4 py-2 bg-[#C9A961]/10 border border-[#C9A961]/30 rounded-full">
+            <span className="text-[#C9A961] text-sm font-semibold">ABOUT US</span>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
             Building Excellence Since 1998
@@ -33,7 +33,7 @@ export const About = () => {
             <div>
               <h2 className="text-4xl font-bold text-white mb-6">Who We Are</h2>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                <strong className="text-[#D4AF37]">Km Chemicals</strong> is a premier manufacturer of high-quality bitumen products, 
+                <strong className="text-[#C9A961]">Km Chemicals</strong> is a premier manufacturer of high-quality bitumen products, 
                 serving the infrastructure industry with dedication and excellence. With over 25 years of experience, 
                 we have established ourselves as a trusted partner for road construction, waterproofing, and industrial applications.
               </p>
@@ -50,12 +50,12 @@ export const About = () => {
               <img
                 src="https://images.unsplash.com/photo-1647427060118-4911c9821b82"
                 alt="Manufacturing"
-                className="rounded-xl h-64 w-full object-cover border border-[#D4AF37]/20"
+                className="rounded-xl h-64 w-full object-cover border border-[#C9A961]/20"
               />
               <img
                 src="https://images.unsplash.com/photo-1670689334799-cdc6777db8cc"
                 alt="Plant Facility"
-                className="rounded-xl h-64 w-full object-cover border border-[#D4AF37]/20 mt-8"
+                className="rounded-xl h-64 w-full object-cover border border-[#C9A961]/20 mt-8"
               />
             </div>
           </div>
@@ -67,9 +67,9 @@ export const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8">
             {/* Mission */}
-            <div className="p-10 rounded-xl bg-gradient-to-br from-[#1a1a1a] to-[#0B0B0B] border border-[#D4AF37]/20 hover:border-[#D4AF37]/60 transition-all duration-300 hover:shadow-2xl hover:shadow-[#D4AF37]/20">
-              <div className="w-16 h-16 bg-[#D4AF37]/10 rounded-xl flex items-center justify-center mb-6 border border-[#D4AF37]/30">
-                <Target className="w-8 h-8 text-[#D4AF37]" />
+            <div className="p-10 rounded-xl bg-gradient-to-br from-[#1a1a1a] to-[#0B0B0B] border border-[#C9A961]/20 hover:border-[#C9A961]/60 transition-all duration-300 hover:shadow-2xl hover:shadow-[#C9A961]/20">
+              <div className="w-16 h-16 bg-[#C9A961]/10 rounded-xl flex items-center justify-center mb-6 border border-[#C9A961]/30">
+                <Target className="w-8 h-8 text-[#C9A961]" />
               </div>
               <h3 className="text-3xl font-bold text-white mb-4">Our Mission</h3>
               <p className="text-gray-300 text-lg leading-relaxed">
@@ -80,9 +80,9 @@ export const About = () => {
             </div>
 
             {/* Vision */}
-            <div className="p-10 rounded-xl bg-gradient-to-br from-[#1a1a1a] to-[#0B0B0B] border border-[#D4AF37]/20 hover:border-[#D4AF37]/60 transition-all duration-300 hover:shadow-2xl hover:shadow-[#D4AF37]/20">
-              <div className="w-16 h-16 bg-[#D4AF37]/10 rounded-xl flex items-center justify-center mb-6 border border-[#D4AF37]/30">
-                <Eye className="w-8 h-8 text-[#D4AF37]" />
+            <div className="p-10 rounded-xl bg-gradient-to-br from-[#1a1a1a] to-[#0B0B0B] border border-[#C9A961]/20 hover:border-[#C9A961]/60 transition-all duration-300 hover:shadow-2xl hover:shadow-[#C9A961]/20">
+              <div className="w-16 h-16 bg-[#C9A961]/10 rounded-xl flex items-center justify-center mb-6 border border-[#C9A961]/30">
+                <Eye className="w-8 h-8 text-[#C9A961]" />
               </div>
               <h3 className="text-3xl font-bold text-white mb-4">Our Vision</h3>
               <p className="text-gray-300 text-lg leading-relaxed">
@@ -99,8 +99,8 @@ export const About = () => {
       <section className="py-20 bg-[#1a1a1a]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-block mb-4 px-4 py-2 bg-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-full">
-              <span className="text-[#D4AF37] text-sm font-semibold">CORE VALUES</span>
+            <div className="inline-block mb-4 px-4 py-2 bg-[#C9A961]/10 border border-[#C9A961]/30 rounded-full">
+              <span className="text-[#C9A961] text-sm font-semibold">CORE VALUES</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">What Drives Us</h2>
           </div>
@@ -116,10 +116,10 @@ export const About = () => {
               return (
                 <div
                   key={index}
-                  className="p-8 rounded-xl bg-[#0B0B0B] border border-[#D4AF37]/20 hover:border-[#D4AF37]/60 transition-all duration-300 hover:transform hover:-translate-y-2 text-center"
+                  className="p-8 rounded-xl bg-[#0B0B0B] border border-[#C9A961]/20 hover:border-[#C9A961]/60 transition-all duration-300 hover:transform hover:-translate-y-2 text-center"
                 >
-                  <div className="w-14 h-14 bg-[#D4AF37]/10 rounded-xl flex items-center justify-center mb-4 mx-auto border border-[#D4AF37]/30">
-                    <Icon className="w-7 h-7 text-[#D4AF37]" />
+                  <div className="w-14 h-14 bg-[#C9A961]/10 rounded-xl flex items-center justify-center mb-4 mx-auto border border-[#C9A961]/30">
+                    <Icon className="w-7 h-7 text-[#C9A961]" />
                   </div>
                   <h4 className="text-xl font-bold text-white mb-2">{value.title}</h4>
                   <p className="text-gray-400 text-sm">{value.desc}</p>
@@ -134,15 +134,15 @@ export const About = () => {
       <section className="py-20 bg-[#0B0B0B]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-block mb-4 px-4 py-2 bg-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-full">
-              <span className="text-[#D4AF37] text-sm font-semibold">OUR JOURNEY</span>
+            <div className="inline-block mb-4 px-4 py-2 bg-[#C9A961]/10 border border-[#C9A961]/30 rounded-full">
+              <span className="text-[#C9A961] text-sm font-semibold">OUR JOURNEY</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Key Milestones</h2>
           </div>
 
           <div className="relative">
             {/* Timeline Line */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-[#D4AF37]/30 hidden lg:block"></div>
+            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-[#C9A961]/30 hidden lg:block"></div>
 
             <div className="space-y-12">
               {companyMilestones.map((milestone, index) => (
@@ -153,12 +153,12 @@ export const About = () => {
                   }`}
                 >
                   <div className={`flex-1 ${index % 2 === 0 ? 'lg:text-right' : 'lg:text-left'}`}>
-                    <div className="inline-block p-6 rounded-xl bg-[#1a1a1a] border border-[#D4AF37]/20 hover:border-[#D4AF37]/60 transition-all duration-300">
-                      <div className="text-3xl font-bold text-[#D4AF37] mb-2">{milestone.year}</div>
+                    <div className="inline-block p-6 rounded-xl bg-[#1a1a1a] border border-[#C9A961]/20 hover:border-[#C9A961]/60 transition-all duration-300">
+                      <div className="text-3xl font-bold text-[#C9A961] mb-2">{milestone.year}</div>
                       <div className="text-white text-lg font-semibold">{milestone.event}</div>
                     </div>
                   </div>
-                  <div className="w-4 h-4 rounded-full bg-[#D4AF37] border-4 border-[#0B0B0B] z-10 hidden lg:block"></div>
+                  <div className="w-4 h-4 rounded-full bg-[#C9A961] border-4 border-[#0B0B0B] z-10 hidden lg:block"></div>
                   <div className="flex-1"></div>
                 </div>
               ))}
@@ -168,7 +168,7 @@ export const About = () => {
       </section>
 
       {/* Plant Capacity Section */}
-      <section className="py-20 bg-gradient-to-br from-[#1a1a1a] via-[#0B0B0B] to-[#1a1a1a] border-y border-[#D4AF37]/20">
+      <section className="py-20 bg-gradient-to-br from-[#1a1a1a] via-[#0B0B0B] to-[#1a1a1a] border-y border-[#C9A961]/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -187,8 +187,8 @@ export const About = () => {
                   'Environment-friendly production methods'
                 ].map((item, index) => (
                   <li key={index} className="flex items-start space-x-3">
-                    <div className="w-6 h-6 bg-[#D4AF37]/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5 border border-[#D4AF37]/30">
-                      <div className="w-2 h-2 bg-[#D4AF37] rounded-full"></div>
+                    <div className="w-6 h-6 bg-[#C9A961]/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5 border border-[#C9A961]/30">
+                      <div className="w-2 h-2 bg-[#C9A961] rounded-full"></div>
                     </div>
                     <span className="text-gray-300">{item}</span>
                   </li>
@@ -199,7 +199,7 @@ export const About = () => {
               <img
                 src="https://images.pexels.com/photos/6048394/pexels-photo-6048394.jpeg"
                 alt="Plant Facility"
-                className="rounded-xl w-full h-full object-cover border border-[#D4AF37]/20 shadow-2xl"
+                className="rounded-xl w-full h-full object-cover border border-[#C9A961]/20 shadow-2xl"
               />
             </div>
           </div>

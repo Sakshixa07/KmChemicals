@@ -41,8 +41,8 @@ export const Contact = () => {
           />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-block mb-6 px-4 py-2 bg-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-full">
-            <span className="text-[#D4AF37] text-sm font-semibold">GET IN TOUCH</span>
+          <div className="inline-block mb-6 px-4 py-2 bg-[#C9A961]/10 border border-[#C9A961]/30 rounded-full">
+            <span className="text-[#C9A961] text-sm font-semibold">GET IN TOUCH</span>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
             Contact Us
@@ -57,29 +57,29 @@ export const Contact = () => {
       <section className="py-16 bg-[#1a1a1a]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-8 rounded-xl bg-gradient-to-br from-[#0B0B0B] to-[#1a1a1a] border border-[#D4AF37]/20 hover:border-[#D4AF37]/60 transition-all duration-300 hover:shadow-2xl hover:shadow-[#D4AF37]/20 text-center">
-              <div className="w-16 h-16 bg-[#D4AF37]/10 rounded-xl flex items-center justify-center mb-6 mx-auto border border-[#D4AF37]/30">
-                <Phone className="w-8 h-8 text-[#D4AF37]" />
+            <div className="p-8 rounded-xl bg-gradient-to-br from-[#0B0B0B] to-[#1a1a1a] border border-[#C9A961]/20 hover:border-[#C9A961]/60 transition-all duration-300 hover:shadow-2xl hover:shadow-[#C9A961]/20 text-center">
+              <div className="w-16 h-16 bg-[#C9A961]/10 rounded-xl flex items-center justify-center mb-6 mx-auto border border-[#C9A961]/30">
+                <Phone className="w-8 h-8 text-[#C9A961]" />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Phone</h3>
-              <a href={`tel:${companyInfo.phone}`} className="text-gray-300 hover:text-[#D4AF37] transition-colors text-lg">
+              <a href={`tel:${companyInfo.phone}`} className="text-gray-300 hover:text-[#C9A961] transition-colors text-lg">
                 {companyInfo.phone}
               </a>
             </div>
 
-            <div className="p-8 rounded-xl bg-gradient-to-br from-[#0B0B0B] to-[#1a1a1a] border border-[#D4AF37]/20 hover:border-[#D4AF37]/60 transition-all duration-300 hover:shadow-2xl hover:shadow-[#D4AF37]/20 text-center">
-              <div className="w-16 h-16 bg-[#D4AF37]/10 rounded-xl flex items-center justify-center mb-6 mx-auto border border-[#D4AF37]/30">
-                <Mail className="w-8 h-8 text-[#D4AF37]" />
+            <div className="p-8 rounded-xl bg-gradient-to-br from-[#0B0B0B] to-[#1a1a1a] border border-[#C9A961]/20 hover:border-[#C9A961]/60 transition-all duration-300 hover:shadow-2xl hover:shadow-[#C9A961]/20 text-center">
+              <div className="w-16 h-16 bg-[#C9A961]/10 rounded-xl flex items-center justify-center mb-6 mx-auto border border-[#C9A961]/30">
+                <Mail className="w-8 h-8 text-[#C9A961]" />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Email</h3>
-              <a href={`mailto:${companyInfo.email}`} className="text-gray-300 hover:text-[#D4AF37] transition-colors text-lg">
+              <a href={`mailto:${companyInfo.email}`} className="text-gray-300 hover:text-[#C9A961] transition-colors text-lg">
                 {companyInfo.email}
               </a>
             </div>
 
-            <div className="p-8 rounded-xl bg-gradient-to-br from-[#0B0B0B] to-[#1a1a1a] border border-[#D4AF37]/20 hover:border-[#D4AF37]/60 transition-all duration-300 hover:shadow-2xl hover:shadow-[#D4AF37]/20 text-center">
-              <div className="w-16 h-16 bg-[#D4AF37]/10 rounded-xl flex items-center justify-center mb-6 mx-auto border border-[#D4AF37]/30">
-                <MapPin className="w-8 h-8 text-[#D4AF37]" />
+            <div className="p-8 rounded-xl bg-gradient-to-br from-[#0B0B0B] to-[#1a1a1a] border border-[#C9A961]/20 hover:border-[#C9A961]/60 transition-all duration-300 hover:shadow-2xl hover:shadow-[#C9A961]/20 text-center">
+              <div className="w-16 h-16 bg-[#C9A961]/10 rounded-xl flex items-center justify-center mb-6 mx-auto border border-[#C9A961]/30">
+                <MapPin className="w-8 h-8 text-[#C9A961]" />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Location</h3>
               <p className="text-gray-300 text-lg">{companyInfo.address}</p>
@@ -95,8 +95,8 @@ export const Contact = () => {
             {/* Contact Form */}
             <div>
               <div className="mb-8">
-                <div className="inline-block mb-4 px-4 py-2 bg-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-full">
-                  <span className="text-[#D4AF37] text-sm font-semibold">REQUEST A QUOTE</span>
+                <div className="inline-block mb-4 px-4 py-2 bg-[#C9A961]/10 border border-[#C9A961]/30 rounded-full">
+                  <span className="text-[#C9A961] text-sm font-semibold">REQUEST A QUOTE</span>
                 </div>
                 <h2 className="text-4xl font-bold text-white mb-4">Send Us a Message</h2>
                 <p className="text-gray-400 text-lg">
@@ -107,7 +107,7 @@ export const Contact = () => {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-white font-medium mb-2 flex items-center gap-2">
-                    <User className="w-4 h-4 text-[#D4AF37]" />
+                    <User className="w-4 h-4 text-[#C9A961]" />
                     Full Name *
                   </label>
                   <input
@@ -117,14 +117,14 @@ export const Contact = () => {
                     required
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg bg-[#1a1a1a] border border-[#D4AF37]/20 text-white placeholder-gray-500 focus:outline-none focus:border-[#D4AF37] focus:ring-2 focus:ring-[#D4AF37]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg bg-[#1a1a1a] border border-[#C9A961]/20 text-white placeholder-gray-500 focus:outline-none focus:border-[#C9A961] focus:ring-2 focus:ring-[#C9A961]/20 transition-all"
                     placeholder="Enter your full name"
                   />
                 </div>
 
                 <div>
                   <label htmlFor="email" className="block text-white font-medium mb-2 flex items-center gap-2">
-                    <Mail className="w-4 h-4 text-[#D4AF37]" />
+                    <Mail className="w-4 h-4 text-[#C9A961]" />
                     Email Address *
                   </label>
                   <input
@@ -134,14 +134,14 @@ export const Contact = () => {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg bg-[#1a1a1a] border border-[#D4AF37]/20 text-white placeholder-gray-500 focus:outline-none focus:border-[#D4AF37] focus:ring-2 focus:ring-[#D4AF37]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg bg-[#1a1a1a] border border-[#C9A961]/20 text-white placeholder-gray-500 focus:outline-none focus:border-[#C9A961] focus:ring-2 focus:ring-[#C9A961]/20 transition-all"
                     placeholder="your.email@example.com"
                   />
                 </div>
 
                 <div>
                   <label htmlFor="phone" className="block text-white font-medium mb-2 flex items-center gap-2">
-                    <Phone className="w-4 h-4 text-[#D4AF37]" />
+                    <Phone className="w-4 h-4 text-[#C9A961]" />
                     Phone Number *
                   </label>
                   <input
@@ -151,14 +151,14 @@ export const Contact = () => {
                     required
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg bg-[#1a1a1a] border border-[#D4AF37]/20 text-white placeholder-gray-500 focus:outline-none focus:border-[#D4AF37] focus:ring-2 focus:ring-[#D4AF37]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg bg-[#1a1a1a] border border-[#C9A961]/20 text-white placeholder-gray-500 focus:outline-none focus:border-[#C9A961] focus:ring-2 focus:ring-[#C9A961]/20 transition-all"
                     placeholder="+91-XXXXXXXXXX"
                   />
                 </div>
 
                 <div>
                   <label htmlFor="requirement" className="block text-white font-medium mb-2 flex items-center gap-2">
-                    <MessageSquare className="w-4 h-4 text-[#D4AF37]" />
+                    <MessageSquare className="w-4 h-4 text-[#C9A961]" />
                     Your Requirements *
                   </label>
                   <textarea
@@ -168,7 +168,7 @@ export const Contact = () => {
                     rows="5"
                     value={formData.requirement}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg bg-[#1a1a1a] border border-[#D4AF37]/20 text-white placeholder-gray-500 focus:outline-none focus:border-[#D4AF37] focus:ring-2 focus:ring-[#D4AF37]/20 transition-all resize-none"
+                    className="w-full px-4 py-3 rounded-lg bg-[#1a1a1a] border border-[#C9A961]/20 text-white placeholder-gray-500 focus:outline-none focus:border-[#C9A961] focus:ring-2 focus:ring-[#C9A961]/20 transition-all resize-none"
                     placeholder="Tell us about your project requirements, quantity needed, delivery location, etc."
                   ></textarea>
                 </div>
@@ -176,7 +176,7 @@ export const Contact = () => {
                 <button
                   type="submit"
                   disabled={isSubmitted}
-                  className="w-full px-8 py-4 bg-[#D4AF37] text-[#0B0B0B] rounded-lg font-bold text-lg hover:bg-[#B8941F] transform hover:scale-105 transition-all duration-300 shadow-xl shadow-[#D4AF37]/30 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full px-8 py-4 bg-[#C9A961] text-[#0B0B0B] rounded-lg font-bold text-lg hover:bg-[#B8941F] transform hover:scale-105 transition-all duration-300 shadow-xl shadow-[#C9A961]/30 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {isSubmitted ? (
                     <>Message Sent Successfully!</>
@@ -190,7 +190,7 @@ export const Contact = () => {
             </div>
 
             {/* Map */}
-            <div className="h-[600px] rounded-xl overflow-hidden border border-[#D4AF37]/20">
+            <div className="h-[600px] rounded-xl overflow-hidden border border-[#C9A961]/20">
               <iframe
                 src={companyInfo.mapUrl}
                 width="100%"
@@ -207,17 +207,17 @@ export const Contact = () => {
       </section>
 
       {/* Business Hours */}
-      <section className="py-16 bg-[#1a1a1a] border-t border-[#D4AF37]/20">
+      <section className="py-16 bg-[#1a1a1a] border-t border-[#C9A961]/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h3 className="text-3xl font-bold text-white mb-8">Business Hours</h3>
             <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
-              <div className="p-6 rounded-xl bg-[#0B0B0B] border border-[#D4AF37]/20">
-                <div className="text-[#D4AF37] font-bold text-lg mb-2">Monday - Saturday</div>
+              <div className="p-6 rounded-xl bg-[#0B0B0B] border border-[#C9A961]/20">
+                <div className="text-[#C9A961] font-bold text-lg mb-2">Monday - Saturday</div>
                 <div className="text-gray-300 text-xl">9:00 AM - 6:00 PM</div>
               </div>
-              <div className="p-6 rounded-xl bg-[#0B0B0B] border border-[#D4AF37]/20">
-                <div className="text-[#D4AF37] font-bold text-lg mb-2">Sunday</div>
+              <div className="p-6 rounded-xl bg-[#0B0B0B] border border-[#C9A961]/20">
+                <div className="text-[#C9A961] font-bold text-lg mb-2">Sunday</div>
                 <div className="text-gray-300 text-xl">Closed</div>
               </div>
             </div>

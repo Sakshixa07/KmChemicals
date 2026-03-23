@@ -33,7 +33,7 @@ button:focus {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #D4AF37;
+    background: #C9A961;
     border-radius: 6px;
 }
 
@@ -43,11 +43,11 @@ button:focus {
 
 /* Selection color */
 ::selection {
-    background-color: #D4AF37;
+    background-color: #C9A961;
     color: #0B0B0B;
 }
 
 ::-moz-selection {
-    background-color: #D4AF37;
+    background-color: #C9A961;
     color: #0B0B0B;
 }

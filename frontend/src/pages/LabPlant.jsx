@@ -14,8 +14,8 @@ export const LabPlant = () => {
           />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-block mb-6 px-4 py-2 bg-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-full">
-            <span className="text-[#D4AF37] text-sm font-semibold">FACILITIES</span>
+          <div className="inline-block mb-6 px-4 py-2 bg-[#C9A961]/10 border border-[#C9A961]/30 rounded-full">
+            <span className="text-[#C9A961] text-sm font-semibold">FACILITIES</span>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
             Laboratory & Manufacturing Plant
@@ -31,8 +31,8 @@ export const LabPlant = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
-              <div className="inline-block mb-6 px-4 py-2 bg-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-full">
-                <span className="text-[#D4AF37] text-sm font-semibold">LABORATORY</span>
+              <div className="inline-block mb-6 px-4 py-2 bg-[#C9A961]/10 border border-[#C9A961]/30 rounded-full">
+                <span className="text-[#C9A961] text-sm font-semibold">LABORATORY</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
                 Advanced Testing Facility
@@ -51,12 +51,12 @@ export const LabPlant = () => {
               <img
                 src="https://images.unsplash.com/photo-1766297247072-93fd815afef3"
                 alt="Lab Equipment"
-                className="rounded-xl h-64 w-full object-cover border border-[#D4AF37]/20"
+                className="rounded-xl h-64 w-full object-cover border border-[#C9A961]/20"
               />
               <img
                 src="https://images.unsplash.com/photo-1768498950637-88d073faa491"
                 alt="Quality Testing"
-                className="rounded-xl h-64 w-full object-cover border border-[#D4AF37]/20 mt-8"
+                className="rounded-xl h-64 w-full object-cover border border-[#C9A961]/20 mt-8"
               />
             </div>
           </div>
@@ -66,11 +66,11 @@ export const LabPlant = () => {
             {labFeatures.map((feature, index) => (
               <div
                 key={index}
-                className="p-8 rounded-xl bg-[#0B0B0B] border border-[#D4AF37]/20 hover:border-[#D4AF37]/60 transition-all duration-300 hover:shadow-2xl hover:shadow-[#D4AF37]/20 hover:transform hover:-translate-y-1"
+                className="p-8 rounded-xl bg-[#0B0B0B] border border-[#C9A961]/20 hover:border-[#C9A961]/60 transition-all duration-300 hover:shadow-2xl hover:shadow-[#C9A961]/20 hover:transform hover:-translate-y-1"
               >
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center flex-shrink-0 border border-[#D4AF37]/30">
-                    <CheckCircle className="w-6 h-6 text-[#D4AF37]" />
+                  <div className="w-12 h-12 bg-[#C9A961]/10 rounded-lg flex items-center justify-center flex-shrink-0 border border-[#C9A961]/30">
+                    <CheckCircle className="w-6 h-6 text-[#C9A961]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-white mb-2">{feature.title}</h3>
@@ -87,8 +87,8 @@ export const LabPlant = () => {
       <section className="py-20 bg-[#0B0B0B]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-block mb-4 px-4 py-2 bg-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-full">
-              <span className="text-[#D4AF37] text-sm font-semibold">QUALITY TESTING</span>
+            <div className="inline-block mb-4 px-4 py-2 bg-[#C9A961]/10 border border-[#C9A961]/30 rounded-full">
+              <span className="text-[#C9A961] text-sm font-semibold">QUALITY TESTING</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Key Test Parameters</h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
@@ -111,10 +111,10 @@ export const LabPlant = () => {
               return (
                 <div
                   key={index}
-                  className="p-6 rounded-xl bg-[#1a1a1a] border border-[#D4AF37]/20 hover:border-[#D4AF37]/60 transition-all duration-300 text-center hover:transform hover:-translate-y-2"
+                  className="p-6 rounded-xl bg-[#1a1a1a] border border-[#C9A961]/20 hover:border-[#C9A961]/60 transition-all duration-300 text-center hover:transform hover:-translate-y-2"
                 >
-                  <div className="w-14 h-14 bg-[#D4AF37]/10 rounded-xl flex items-center justify-center mb-4 mx-auto border border-[#D4AF37]/30">
-                    <Icon className="w-7 h-7 text-[#D4AF37]" />
+                  <div className="w-14 h-14 bg-[#C9A961]/10 rounded-xl flex items-center justify-center mb-4 mx-auto border border-[#C9A961]/30">
+                    <Icon className="w-7 h-7 text-[#C9A961]" />
                   </div>
                   <h4 className="text-lg font-bold text-white mb-2">{test.title}</h4>
                   <p className="text-gray-400 text-sm">{test.desc}</p>
@@ -133,12 +133,12 @@ export const LabPlant = () => {
               <img
                 src="https://images.unsplash.com/photo-1717386255773-a456c611dc4e"
                 alt="Manufacturing Plant"
-                className="rounded-xl w-full h-[500px] object-cover border border-[#D4AF37]/20 shadow-2xl"
+                className="rounded-xl w-full h-[500px] object-cover border border-[#C9A961]/20 shadow-2xl"
               />
             </div>
             <div className="order-1 lg:order-2">
-              <div className="inline-block mb-6 px-4 py-2 bg-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-full">
-                <span className="text-[#D4AF37] text-sm font-semibold">MANUFACTURING PLANT</span>
+              <div className="inline-block mb-6 px-4 py-2 bg-[#C9A961]/10 border border-[#C9A961]/30 rounded-full">
+                <span className="text-[#C9A961] text-sm font-semibold">MANUFACTURING PLANT</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
                 Modern Production Facility
@@ -160,11 +160,11 @@ export const LabPlant = () => {
             {plantFeatures.map((feature, index) => (
               <div
                 key={index}
-                className="p-8 rounded-xl bg-[#0B0B0B] border border-[#D4AF37]/20 hover:border-[#D4AF37]/60 transition-all duration-300 hover:shadow-2xl hover:shadow-[#D4AF37]/20 hover:transform hover:-translate-y-1"
+                className="p-8 rounded-xl bg-[#0B0B0B] border border-[#C9A961]/20 hover:border-[#C9A961]/60 transition-all duration-300 hover:shadow-2xl hover:shadow-[#C9A961]/20 hover:transform hover:-translate-y-1"
               >
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center flex-shrink-0 border border-[#D4AF37]/30">
-                    <Factory className="w-6 h-6 text-[#D4AF37]" />
+                  <div className="w-12 h-12 bg-[#C9A961]/10 rounded-lg flex items-center justify-center flex-shrink-0 border border-[#C9A961]/30">
+                    <Factory className="w-6 h-6 text-[#C9A961]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-white mb-2">{feature.title}</h3>
@@ -181,8 +181,8 @@ export const LabPlant = () => {
       <section className="py-20 bg-[#0B0B0B]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-block mb-4 px-4 py-2 bg-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-full">
-              <span className="text-[#D4AF37] text-sm font-semibold">FACILITY OVERVIEW</span>
+            <div className="inline-block mb-4 px-4 py-2 bg-[#C9A961]/10 border border-[#C9A961]/30 rounded-full">
+              <span className="text-[#C9A961] text-sm font-semibold">FACILITY OVERVIEW</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Our Infrastructure</h2>
           </div>
@@ -191,17 +191,17 @@ export const LabPlant = () => {
             <img
               src="https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg"
               alt="Plant View 1"
-              className="rounded-xl h-64 w-full object-cover border border-[#D4AF37]/20 hover:border-[#D4AF37]/60 transition-all duration-300"
+              className="rounded-xl h-64 w-full object-cover border border-[#C9A961]/20 hover:border-[#C9A961]/60 transition-all duration-300"
             />
             <img
               src="https://images.unsplash.com/photo-1588011930968-eadac80e6a5a"
               alt="Plant View 2"
-              className="rounded-xl h-64 w-full object-cover border border-[#D4AF37]/20 hover:border-[#D4AF37]/60 transition-all duration-300"
+              className="rounded-xl h-64 w-full object-cover border border-[#C9A961]/20 hover:border-[#C9A961]/60 transition-all duration-300"
             />
             <img
               src="https://images.pexels.com/photos/7178310/pexels-photo-7178310.jpeg"
               alt="Plant View 3"
-              className="rounded-xl h-64 w-full object-cover border border-[#D4AF37]/20 hover:border-[#D4AF37]/60 transition-all duration-300"
+              className="rounded-xl h-64 w-full object-cover border border-[#C9A961]/20 hover:border-[#C9A961]/60 transition-all duration-300"
             />
           </div>
         </div>

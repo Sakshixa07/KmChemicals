@@ -21,8 +21,8 @@ export const Certifications = () => {
           />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-block mb-6 px-4 py-2 bg-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-full">
-            <span className="text-[#D4AF37] text-sm font-semibold">CERTIFICATIONS</span>
+          <div className="inline-block mb-6 px-4 py-2 bg-[#C9A961]/10 border border-[#C9A961]/30 rounded-full">
+            <span className="text-[#C9A961] text-sm font-semibold">CERTIFICATIONS</span>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
             Quality Certifications & Standards
@@ -49,12 +49,12 @@ export const Certifications = () => {
               return (
                 <div
                   key={index}
-                  className="group p-8 rounded-xl bg-gradient-to-br from-[#0B0B0B] to-[#1a1a1a] border-2 border-[#D4AF37]/30 hover:border-[#D4AF37] transition-all duration-300 hover:shadow-2xl hover:shadow-[#D4AF37]/30 hover:transform hover:-translate-y-3 text-center"
+                  className="group p-8 rounded-xl bg-gradient-to-br from-[#0B0B0B] to-[#1a1a1a] border-2 border-[#C9A961]/30 hover:border-[#C9A961] transition-all duration-300 hover:shadow-2xl hover:shadow-[#C9A961]/30 hover:transform hover:-translate-y-3 text-center"
                 >
-                  <div className="w-20 h-20 bg-[#D4AF37]/10 rounded-2xl flex items-center justify-center mb-6 mx-auto group-hover:bg-[#D4AF37]/20 transition-colors border-2 border-[#D4AF37]/40 group-hover:border-[#D4AF37]">
-                    <Icon className="w-10 h-10 text-[#D4AF37]" />
+                  <div className="w-20 h-20 bg-[#C9A961]/10 rounded-2xl flex items-center justify-center mb-6 mx-auto group-hover:bg-[#C9A961]/20 transition-colors border-2 border-[#C9A961]/40 group-hover:border-[#C9A961]">
+                    <Icon className="w-10 h-10 text-[#C9A961]" />
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-[#D4AF37] transition-colors">
+                  <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-[#C9A961] transition-colors">
                     {cert.name}
                   </h3>
                   <p className="text-gray-400 leading-relaxed">{cert.description}</p>
@@ -69,8 +69,8 @@ export const Certifications = () => {
       <section className="py-20 bg-[#0B0B0B]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-block mb-4 px-4 py-2 bg-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-full">
-              <span className="text-[#D4AF37] text-sm font-semibold">COMPLIANCE</span>
+            <div className="inline-block mb-4 px-4 py-2 bg-[#C9A961]/10 border border-[#C9A961]/30 rounded-full">
+              <span className="text-[#C9A961] text-sm font-semibold">COMPLIANCE</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Standards We Follow</h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
@@ -113,13 +113,13 @@ export const Certifications = () => {
             ].map((std, index) => (
               <div
                 key={index}
-                className="p-8 rounded-xl bg-[#1a1a1a] border border-[#D4AF37]/20 hover:border-[#D4AF37]/60 transition-all duration-300 hover:shadow-xl hover:shadow-[#D4AF37]/20"
+                className="p-8 rounded-xl bg-[#1a1a1a] border border-[#C9A961]/20 hover:border-[#C9A961]/60 transition-all duration-300 hover:shadow-xl hover:shadow-[#C9A961]/20"
               >
                 <div className="flex items-center space-x-3 mb-4">
-                  <div className="w-10 h-10 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center border border-[#D4AF37]/30">
-                    <FileCheck className="w-5 h-5 text-[#D4AF37]" />
+                  <div className="w-10 h-10 bg-[#C9A961]/10 rounded-lg flex items-center justify-center border border-[#C9A961]/30">
+                    <FileCheck className="w-5 h-5 text-[#C9A961]" />
                   </div>
-                  <div className="text-2xl font-bold text-[#D4AF37]">{std.standard}</div>
+                  <div className="text-2xl font-bold text-[#C9A961]">{std.standard}</div>
                 </div>
                 <h4 className="text-lg font-bold text-white mb-2">{std.title}</h4>
                 <p className="text-gray-400 text-sm">{std.desc}</p>
@@ -130,11 +130,11 @@ export const Certifications = () => {
       </section>
 
       {/* Quality Commitment */}
-      <section className="py-20 bg-gradient-to-br from-[#1a1a1a] via-[#0B0B0B] to-[#1a1a1a] border-y border-[#D4AF37]/20">
+      <section className="py-20 bg-gradient-to-br from-[#1a1a1a] via-[#0B0B0B] to-[#1a1a1a] border-y border-[#C9A961]/20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <div className="w-20 h-20 bg-[#D4AF37]/10 rounded-2xl flex items-center justify-center mb-8 mx-auto border-2 border-[#D4AF37]/40">
-              <ShieldCheck className="w-10 h-10 text-[#D4AF37]" />
+            <div className="w-20 h-20 bg-[#C9A961]/10 rounded-2xl flex items-center justify-center mb-8 mx-auto border-2 border-[#C9A961]/40">
+              <ShieldCheck className="w-10 h-10 text-[#C9A961]" />
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
               Our Quality Commitment
@@ -151,8 +151,8 @@ export const Certifications = () => {
                 { value: '25+', label: 'Years Experience' },
                 { value: 'ISO', label: 'Certified' }
               ].map((item, index) => (
-                <div key={index} className="p-6 rounded-xl bg-white/5 border border-[#D4AF37]/20">
-                  <div className="text-4xl font-bold text-[#D4AF37] mb-2">{item.value}</div>
+                <div key={index} className="p-6 rounded-xl bg-white/5 border border-[#C9A961]/20">
+                  <div className="text-4xl font-bold text-[#C9A961] mb-2">{item.value}</div>
                   <div className="text-gray-400 font-medium">{item.label}</div>
                 </div>
               ))}
@@ -165,20 +165,20 @@ export const Certifications = () => {
       <section className="py-20 bg-[#0B0B0B]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-block mb-4 px-4 py-2 bg-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-full">
-              <span className="text-[#D4AF37] text-sm font-semibold">VERIFIED & APPROVED</span>
+            <div className="inline-block mb-4 px-4 py-2 bg-[#C9A961]/10 border border-[#C9A961]/30 rounded-full">
+              <span className="text-[#C9A961] text-sm font-semibold">VERIFIED & APPROVED</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Certified Excellence</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div className="p-12 rounded-xl bg-[#1a1a1a] border-2 border-[#D4AF37]/30 hover:border-[#D4AF37] transition-all duration-300 flex flex-col items-center justify-center text-center">
-              <Award className="w-24 h-24 text-[#D4AF37] mb-6" />
+            <div className="p-12 rounded-xl bg-[#1a1a1a] border-2 border-[#C9A961]/30 hover:border-[#C9A961] transition-all duration-300 flex flex-col items-center justify-center text-center">
+              <Award className="w-24 h-24 text-[#C9A961] mb-6" />
               <h3 className="text-2xl font-bold text-white mb-3">ISO Certified</h3>
               <p className="text-gray-400">Quality & Environmental Management</p>
             </div>
-            <div className="p-12 rounded-xl bg-[#1a1a1a] border-2 border-[#D4AF37]/30 hover:border-[#D4AF37] transition-all duration-300 flex flex-col items-center justify-center text-center">
-              <BadgeCheck className="w-24 h-24 text-[#D4AF37] mb-6" />
+            <div className="p-12 rounded-xl bg-[#1a1a1a] border-2 border-[#C9A961]/30 hover:border-[#C9A961] transition-all duration-300 flex flex-col items-center justify-center text-center">
+              <BadgeCheck className="w-24 h-24 text-[#C9A961] mb-6" />
               <h3 className="text-2xl font-bold text-white mb-3">Government Approved</h3>
               <p className="text-gray-400">PWD & NHAI Certified Supplier</p>
             </div>
