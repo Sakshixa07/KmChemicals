@@ -129,6 +129,73 @@ export const About = () => {
         </div>
       </section>
 
+      {/* Leadership Team Section */}
+      <section className="py-20 bg-[#0B0B0B]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="inline-block mb-4 px-4 py-2 bg-[#C9A961]/10 border border-[#C9A961]/30 rounded-full">
+              <span className="text-[#C9A961] text-sm font-semibold">LEADERSHIP</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Our Leadership Team</h2>
+            <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+              Guided by experienced leaders committed to excellence and innovation
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+            {/* Chairperson */}
+            <div className="group">
+              <div className="relative mb-6 overflow-hidden rounded-2xl border-4 border-[#C9A961]/30 hover:border-[#C9A961] transition-all duration-300 shadow-2xl hover:shadow-[#C9A961]/40">
+                <div className="aspect-[3/4] bg-gradient-to-br from-[#1a1a1a] to-[#0B0B0B]">
+                  <img
+                    src="https://via.placeholder.com/400x550/1a1a1a/C9A961?text=Chairperson+Photo"
+                    alt="Chairperson"
+                    className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
+                  />
+                </div>
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#0B0B0B] via-[#0B0B0B]/95 to-transparent p-8">
+                  <div className="inline-block px-3 py-1 bg-[#C9A961]/20 border border-[#C9A961]/50 rounded-full mb-3">
+                    <span className="text-[#C9A961] text-sm font-semibold">CHAIRPERSON</span>
+                  </div>
+                  <h3 className="text-3xl font-bold text-white mb-2">Name Here</h3>
+                  <p className="text-gray-300 text-lg font-medium">Chairperson</p>
+                </div>
+              </div>
+              <div className="p-6 rounded-xl bg-[#1a1a1a] border border-[#C9A961]/20">
+                <p className="text-gray-300 leading-relaxed text-center">
+                  Leading Km Chemicals with strategic vision and decades of industry experience
+                </p>
+              </div>
+            </div>
+
+            {/* Director */}
+            <div className="group">
+              <div className="relative mb-6 overflow-hidden rounded-2xl border-4 border-[#C9A961]/30 hover:border-[#C9A961] transition-all duration-300 shadow-2xl hover:shadow-[#C9A961]/40">
+                <div className="aspect-[3/4] bg-gradient-to-br from-[#1a1a1a] to-[#0B0B0B]">
+                  <img
+                    src="https://via.placeholder.com/400x550/1a1a1a/C9A961?text=Director+Photo"
+                    alt="Director"
+                    className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
+                  />
+                </div>
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#0B0B0B] via-[#0B0B0B]/95 to-transparent p-8">
+                  <div className="inline-block px-3 py-1 bg-[#C9A961]/20 border border-[#C9A961]/50 rounded-full mb-3">
+                    <span className="text-[#C9A961] text-sm font-semibold">DIRECTOR</span>
+                  </div>
+                  <h3 className="text-3xl font-bold text-white mb-2">Name Here</h3>
+                  <p className="text-gray-300 text-lg font-medium">Director</p>
+                </div>
+              </div>
+              <div className="p-6 rounded-xl bg-[#1a1a1a] border border-[#C9A961]/20">
+                <p className="text-gray-300 leading-relaxed text-center">
+                  Driving operational excellence and innovation in bitumen manufacturing
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Plant Capacity Section */}
       <section className="py-20 bg-gradient-to-br from-[#1a1a1a] via-[#0B0B0B] to-[#1a1a1a] border-y border-[#C9A961]/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
