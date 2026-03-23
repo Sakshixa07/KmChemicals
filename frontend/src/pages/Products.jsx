@@ -99,6 +99,15 @@ export const Products = () => {
                       key={index}
                       className="group p-8 rounded-xl bg-gradient-to-br from-[#1a1a1a] to-[#0B0B0B] border border-[#C9A961]/20 hover:border-[#C9A961] transition-all duration-300 hover:shadow-2xl hover:shadow-[#C9A961]/30 hover:transform hover:-translate-y-2"
                     >
+                      {/* Product Image - Drum Placeholder */}
+                      <div className="mb-6 rounded-lg overflow-hidden bg-[#0B0B0B] border border-[#C9A961]/20 p-4 flex items-center justify-center h-48">
+                        <img
+                          src="https://via.placeholder.com/200x200/1a1a1a/C9A961?text=KM+Drum"
+                          alt={item.name}
+                          className="h-full w-auto object-contain opacity-80 group-hover:opacity-100 transition-opacity"
+                        />
+                      </div>
+
                       <div className="flex items-start justify-between mb-4">
                         <h3 className="text-xl font-bold text-white group-hover:text-[#C9A961] transition-colors">
                           {item.name}
@@ -138,7 +147,7 @@ export const Products = () => {
             href="/contact"
             className="inline-block px-10 py-5 bg-[#C9A961] text-[#0B0B0B] rounded-lg font-bold text-lg hover:bg-[#B8941F] transform hover:scale-105 transition-all duration-300 shadow-2xl shadow-[#C9A961]/40"
           >
-            Contact Our Experts
+            Contact Us
           </a>
         </div>
       </section>

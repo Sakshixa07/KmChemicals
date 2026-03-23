@@ -33,7 +33,7 @@ export const Home = () => {
                   to="/contact"
                   className="px-8 py-4 bg-[#C9A961] text-[#0B0B0B] rounded-lg font-semibold text-lg hover:bg-[#B8941F] transform hover:scale-105 transition-all duration-300 shadow-2xl shadow-[#C9A961]/30 flex items-center gap-2"
                 >
-                  Get a Quote <ArrowRight className="w-5 h-5" />
+                  Contact Us <ArrowRight className="w-5 h-5" />
                 </Link>
                 <Link
                   to="/products"
@@ -175,7 +175,7 @@ export const Home = () => {
                 to="/contact"
                 className="px-10 py-5 bg-[#C9A961] text-[#0B0B0B] rounded-lg font-bold text-lg hover:bg-[#B8941F] transform hover:scale-105 transition-all duration-300 shadow-2xl shadow-[#C9A961]/40 flex items-center gap-2"
               >
-                Request Quote <ArrowRight className="w-5 h-5" />
+                Contact Us <ArrowRight className="w-5 h-5" />
               </Link>
               <a
                 href={`tel:${companyInfo.phone}`}

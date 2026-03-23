@@ -61,7 +61,7 @@ export const Navbar = () => {
               to="/contact"
               className="ml-4 px-6 py-2.5 bg-[#C9A961] text-[#0B0B0B] rounded-lg font-semibold text-sm hover:bg-[#B8941F] transform hover:scale-105 transition-all duration-300 shadow-lg shadow-[#C9A961]/30"
             >
-              Get a Quote
+              Contact
             </Link>
           </div>
 
@@ -99,7 +99,7 @@ export const Navbar = () => {
             onClick={() => setIsOpen(false)}
             className="block text-center px-4 py-3 bg-[#C9A961] text-[#0B0B0B] rounded-lg font-semibold text-sm hover:bg-[#B8941F] transition-colors"
           >
-            Get a Quote
+            Contact
           </Link>
         </div>
       </div>

@@ -1,5 +1,4 @@
 import { Users, Target, Eye, TrendingUp, Award, Clock } from 'lucide-react';
-import { companyMilestones } from '../data/mock';
 
 export const About = () => {
   return (
@@ -126,43 +125,6 @@ export const About = () => {
                 </div>
               );
             })}
-          </div>
-        </div>
-      </section>
-
-      {/* Company Journey / Milestones */}
-      <section className="py-20 bg-[#0B0B0B]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <div className="inline-block mb-4 px-4 py-2 bg-[#C9A961]/10 border border-[#C9A961]/30 rounded-full">
-              <span className="text-[#C9A961] text-sm font-semibold">OUR JOURNEY</span>
-            </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Key Milestones</h2>
-          </div>
-
-          <div className="relative">
-            {/* Timeline Line */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-[#C9A961]/30 hidden lg:block"></div>
-
-            <div className="space-y-12">
-              {companyMilestones.map((milestone, index) => (
-                <div
-                  key={index}
-                  className={`flex flex-col lg:flex-row items-center gap-8 ${
-                    index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'
-                  }`}
-                >
-                  <div className={`flex-1 ${index % 2 === 0 ? 'lg:text-right' : 'lg:text-left'}`}>
-                    <div className="inline-block p-6 rounded-xl bg-[#1a1a1a] border border-[#C9A961]/20 hover:border-[#C9A961]/60 transition-all duration-300">
-                      <div className="text-3xl font-bold text-[#C9A961] mb-2">{milestone.year}</div>
-                      <div className="text-white text-lg font-semibold">{milestone.event}</div>
-                    </div>
-                  </div>
-                  <div className="w-4 h-4 rounded-full bg-[#C9A961] border-4 border-[#0B0B0B] z-10 hidden lg:block"></div>
-                  <div className="flex-1"></div>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </section>

@@ -96,7 +96,7 @@ export const Contact = () => {
             <div>
               <div className="mb-8">
                 <div className="inline-block mb-4 px-4 py-2 bg-[#C9A961]/10 border border-[#C9A961]/30 rounded-full">
-                  <span className="text-[#C9A961] text-sm font-semibold">REQUEST A QUOTE</span>
+                  <span className="text-[#C9A961] text-sm font-semibold">CONTACT US</span>
                 </div>
                 <h2 className="text-4xl font-bold text-white mb-4">Send Us a Message</h2>
                 <p className="text-gray-400 text-lg">
